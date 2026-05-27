@@ -1,24 +1,21 @@
-\---
-
+---
 name: video-podcast-clipper
 description: >
-AI-powered short-form clip extractor for videos, podcasts, webinars, interviews,
-and all long-form content. Transcribes with faster-whisper, scores segments with
-a neuroscience-informed 8-dimension rubric, tracks faces with MediaPipe for smart
-crop positioning, renders vertical 1080x1920 clips with ffmpeg, generates animated
-captions with Remotion, and exports platform-optimized files.
-Works with any AI coding agent (Claude Code, Hermes, OpenClaw, Codex, etc.).
-Use when the user says "clip this", "extract shorts", "make clips", "short-form",
-"vertical clips", "reels", "shorts", "tiktok", or "repurpose".
+  AI-powered short-form clip extractor for videos, podcasts, webinars, interviews,
+  and all long-form content. Transcribes with faster-whisper, scores segments with
+  a neuroscience-informed 8-dimension rubric, tracks faces with MediaPipe for smart
+  crop positioning, renders vertical 1080x1920 clips with ffmpeg, generates animated
+  captions with Remotion, and exports platform-optimized files.
+  Works with any AI coding agent (Claude Code, Hermes, OpenClaw, Codex, etc.).
+  Use when the user says "clip this", "extract shorts", "make clips", "short-form",
+  "vertical clips", "reels", "shorts", "tiktok", or "repurpose".
 allowed-tools:
-
-* Bash
-* Read
-* Write
-* Edit
-* AskUserQuestion
-
-\---
+  - Bash
+  - Read
+  - Write
+  - Edit
+  - AskUserQuestion
+---
 
 # Video Podcast Clipper — AI Short-Form Clip Extractor for Any Long-Form Content
 
